@@ -353,98 +353,102 @@ footer {
 /***************************************** */
 /*=========     MEDIA-QUERIES    ========= */
 /***************************************** */
-/********************************* */
-/*=========     GLOBAL   ========= */
-/********************************* */
-.red-button {
-  display: inline-block;
-  width: 45%; }
-
-/**************************************** */
-/*=========     OUR-PROJECTS    ========= */
-/**************************************** */
-.project-list figure {
-  margin: 40px 4.7% auto;
-  display: inline-block;
-  float: none;
-  width: 40%; }
-
-/********************************* */
-/*=========     HEADER   ========= */
-/********************************* */
-header {
-  text-align: center;
-  padding-bottom: 0; }
-
-.logo {
-  max-width: 125px; }
-
-#toggle {
-  display: none; }
-  #toggle:checked ~ nav {
-    width: 100%; }
-
-.toggle-button {
-  display: none; }
-
-nav {
-  position: relative;
-  background-color: #fff;
-  width: 100%;
-  height: 57px;
-  overflow: hidden;
-  border-top: solid 1px #333333; }
-  nav li {
-    color: #333333;
-    display: inline-block; }
-  nav label {
-    display: none; }
-  nav a {
+@media (min-width: 560px) {
+  /********************************* */
+  /*=========     GLOBAL   ========= */
+  /********************************* */
+  .red-button {
     display: inline-block;
-    font-size: 15px; }
+    width: 45%; }
 
-/************************************** */
-/*=========     WHAT-WE-DO    ========= */
-/************************************** */
-.services article {
-  margin: 40px 4.7% auto;
-  float: left;
-  width: 40%; }
+  /**************************************** */
+  /*=========     OUR-PROJECTS    ========= */
+  /**************************************** */
+  .project-list figure {
+    margin: 40px 4.7% auto;
+    display: inline-block;
+    float: none;
+    width: 40%; } }
+@media (min-width: 800px) {
+  /********************************* */
+  /*=========     HEADER   ========= */
+  /********************************* */
+  header {
+    text-align: center;
+    padding-bottom: 0; }
 
-/**************************************** */
-/*=========     OUR-PROJECTS    ========= */
-/**************************************** */
-.project-list figure {
-  margin: 40px 2% auto;
-  display: inline-block;
-  float: none;
-  width: 20%; }
+  .logo {
+    max-width: 125px; }
 
-/*********************************** */
-/*=========     CONTACT    ========= */
-/*********************************** */
-#contact {
-  background-color: #f7f7f7;
-  position: relative;
-  padding: 0; }
-  #contact:after {
-    content: "";
-    display: block;
-    clear: both; }
+  #toggle {
+    display: none; }
+    #toggle:checked ~ nav {
+      width: 100%; }
 
-.map {
-  position: absolute;
-  float: left;
-  top: 0;
-  left: 0;
-  width: 50%;
-  height: 600px; }
+  .fa {
+    display: none; }
 
-form {
-  float: right;
-  padding: 0 0 auto;
-  width: 50%; }
-  form .separator {
-    margin: 0; }
+  .toggle-button {
+    display: none; }
+
+  nav {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    height: 57px;
+    overflow: hidden;
+    border-top: solid 1px #333333; }
+    nav li {
+      color: #333333;
+      display: inline-block; }
+    nav label {
+      display: none; }
+    nav a {
+      display: inline-block;
+      font-size: 15px; }
+
+  /************************************** */
+  /*=========     WHAT-WE-DO    ========= */
+  /************************************** */
+  .services article {
+    margin: 40px 4.7% auto;
+    float: left;
+    width: 40%; } }
+@media (min-width: 1100px) {
+  /**************************************** */
+  /*=========     OUR-PROJECTS    ========= */
+  /**************************************** */
+  .project-list figure {
+    margin: 40px 2% auto;
+    display: inline-block;
+    float: none;
+    width: 20%; }
+
+  /*********************************** */
+  /*=========     CONTACT    ========= */
+  /*********************************** */
+  #contact {
+    background-color: #f7f7f7;
+    position: relative;
+    padding: 0; }
+    #contact:after {
+      content: "";
+      display: block;
+      clear: both; }
+
+  .map {
+    position: absolute;
+    float: left;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 600px; }
+
+  form {
+    float: right;
+    padding: 0 0 auto;
+    width: 50%; }
+    form .separator {
+      margin: 0; } }
 
 /*# sourceMappingURL=styles.css.map */
