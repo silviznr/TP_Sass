@@ -358,8 +358,7 @@ footer {
   /*=========     GLOBAL   ========= */
   /********************************* */
   .red-button {
-    display: inline-block;
-    width: 45%; }
+    display: inline-block; }
 
   /**************************************** */
   /*=========     OUR-PROJECTS    ========= */
@@ -385,10 +384,10 @@ footer {
     #toggle:checked ~ nav {
       width: 100%; }
 
-  .fa {
+  .toggle-button {
     display: none; }
 
-  .toggle-button {
+  .fa-close {
     display: none; }
 
   nav {
@@ -407,10 +406,11 @@ footer {
       display: inline-block;
       font-size: 15px; }
 
-  /************************************** */
-  /*=========     WHAT-WE-DO    ========= */
-  /************************************** */
-  .services article {
+  #we-do:after {
+    content: "";
+    display: block;
+    clear: both; }
+  #we-do .services article {
     margin: 40px 4.7% auto;
     float: left;
     width: 40%; } }
