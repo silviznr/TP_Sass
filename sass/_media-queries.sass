@@ -8,7 +8,6 @@
 	/**********************************/
 	.red-button
 		display: inline-block
-		width: 45%
 
 	/*****************************************/
 	/*=========     OUR-PROJECTS    =========*/
@@ -36,11 +35,11 @@
 		display: none
 		&:checked ~ nav
 			width: 100%
-	
-	.fa
-		display: none
 
 	.toggle-button
+		display: none
+
+	.fa-close
 		display: none
 
 	// nav-bar 
@@ -60,15 +59,13 @@
 			display: inline-block
 			font-size: 15px
 		
-
-	/***************************************/
-	/*=========     WHAT-WE-DO    =========*/
-	/***************************************/
-	.services
-		article
-			margin: 40px 4.7% auto
-			float: left
-			width: 40%
+	#we-do
+		+clearfix
+		.services
+			article
+				margin: 40px 4.7% auto
+				float: left
+				width: 40%
 
 
 @media (min-width: 1100px)
